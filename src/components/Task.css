@@ -1,0 +1,40 @@
+.taskWrapper {
+  margin-top: 4px;
+  background: #fff;
+  color: rgb(215, 54, 0);
+  text-align: start;
+  padding: 4px;
+  min-height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.states {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ONGOING {
+  background-color: aqua;
+  color: black;
+}
+
+.PLANNED {
+  background-color: coral;
+  color: black;
+}
+
+.DONE {
+  background-color: aquamarine;
+  color: black;
+}
+
+.states button {
+  all: unset;
+  background: #000;
+  color: #fff;
+  height: fit-content;
+  padding: 4px 16px;
+}
